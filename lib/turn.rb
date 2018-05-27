@@ -35,7 +35,6 @@ def move(board, index, char="X")
 end
 
 def turn(board)
-  
   choice = ""
   until valid_move?(board, choice)
     puts "Please enter 1-9:"
