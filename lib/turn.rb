@@ -24,3 +24,11 @@ def valid_move?(board, index)
   
   return false
 end
+
+def move(board, index, char="X")
+  
+  if valid_move?(board, index)
+    board[index] = char
+  end
+  
+end
