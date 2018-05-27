@@ -42,5 +42,6 @@ def turn
   puts "Please enter 1-9:"
   
   choice = input_to_index(gets.strip)
+  move(board, choice)
   
 end
